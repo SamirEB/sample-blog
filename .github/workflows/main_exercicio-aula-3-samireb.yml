@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'exercicio-aula-3-samireb'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2DCE4953577447CBAE544E81B9935B59 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
